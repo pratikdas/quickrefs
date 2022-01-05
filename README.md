@@ -5,3 +5,9 @@ To start a webserver run the command below:
 python3 -m http.server
 ```
 That will open a webserver on port 8080. You can then open your browser at http://127.0.0.1:8080/
+
+## Start MongoDB server
+bin/mongod --dbpath /Users/pratikdas//pratik/mongodb --port 12345
+
+bin/mongo --port 12345
+
