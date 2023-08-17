@@ -27,3 +27,7 @@ bin/kafka-server-start.sh config/server.properties
 ```
 ## Install Kotlin
 brew install kotlin
+kotlinc -help
+compile application: kotlinc hello.kt -include-runtime -d hello.jar
+compile library: kotlinc hello.kt -d hello.jar
+REPL: kotlin
