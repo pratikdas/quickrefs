@@ -25,3 +25,5 @@ Start kafka broker
 ```shell
 bin/kafka-server-start.sh config/server.properties
 ```
+## Install Kotlin
+brew install kotlin
