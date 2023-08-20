@@ -26,8 +26,40 @@ Start kafka broker
 bin/kafka-server-start.sh config/server.properties
 ```
 ## Install Kotlin
+```shell
 brew install kotlin
+```
+```shell
 kotlinc -help
-compile application: kotlinc hello.kt -include-runtime -d hello.jar
-compile library: kotlinc hello.kt -d hello.jar
-REPL: kotlin
+```
+compile application:
+```shell
+kotlinc hello.kt -include-runtime -d hello.jar
+```
+compile library: 
+```shell
+kotlinc hello.kt -d hello.jar
+```
+REPL: 
+```shell
+kotlin
+```
+## Starting Flask
+```shell
+pip3 install Flask
+```
+```shell
+flask --app hello run
+```
+```python
+# hello.py
+
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route("/")
+def hello_world():
+    return "Hello, World!"
+```
+
