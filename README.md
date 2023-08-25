@@ -62,4 +62,17 @@ app = Flask(__name__)
 def hello_world():
     return "Hello, World!"
 ```
-
+## Virtual environments in python
+python native way using venv
+```shell
+cd <new folder>
+python3 -m venv .venv
+source venv/bin/activate
+```
+```shell
+pip3 install flask
+```
+```shell
+deactivate
+```
+3rd paty: conda, virtualenv
