@@ -76,3 +76,8 @@ pip3 install flask
 deactivate
 ```
 3rd paty: conda, virtualenv
+
+## Next JS
+```shell
+npx create-next-app@latest
+```
